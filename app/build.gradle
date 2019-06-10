@@ -60,5 +60,8 @@ dependencies {
     implementation "com.google.android.material:material:$version_material"
     implementation 'android.arch.navigation:navigation-fragment:1.0.0'
     implementation 'android.arch.navigation:navigation-ui:1.0.0'
-    // TODO (01) Add the dependencies for navigation fragment ktx and navigation UI ktx
+
+    // Navigation
+    implementation "androidx.navigation:navigation-fragment:$version_navigation" // For Kotlin use navigation-fragment-ktx
+    implementation "androidx.navigation:navigation-ui:$version_navigation" // For Kotlin use navigation-ui-ktx
 }
