@@ -34,12 +34,4 @@ class TitleFragment : Fragment() {
         // R.id.action_titleFragment_to_gameFragment
         return binding.root
     }
-    // TODO (06) Add the Title Fragment to the Navigation Graph
-    // Go to the navigation.xml file and select the design tab
-    // Click the add icon with the + on it to add a new destination to the graph
-    // Select fragment_title to add this fragment to the graph as the start destination
-
-    // TODO (08) Connect the Title and Game Fragments with an Action
-    // In the navigation editor, hover over the titleFragment.  Click on the circular connection
-    // point and drag to gameFragment to create the Action
 }
