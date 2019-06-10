@@ -58,8 +58,8 @@ dependencies {
 
     // Material Design
     implementation "com.google.android.material:material:$version_material"
-    implementation 'android.arch.navigation:navigation-fragment:1.0.0'
-    implementation 'android.arch.navigation:navigation-ui:1.0.0'
+    implementation 'androidx.navigation:navigation-fragment:2.0.0'
+    implementation 'androidx.navigation:navigation-ui:2.0.0'
 
     // Navigation
     implementation "androidx.navigation:navigation-fragment:$version_navigation" // For Kotlin use navigation-fragment-ktx
